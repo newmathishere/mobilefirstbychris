@@ -6,8 +6,9 @@ padding: 0;
 max-width: 800px;
 font-family: 'Poppins', sans-serif;
 font-size: 18px;
-background-color: #11E173
+background-color: #a0d8b3
 }
+
 
 
 h1 {font-family: 'Rokkitt', sans-serif;
@@ -49,8 +50,18 @@ blockquote {font-family: 'Archivo Black', sans-serif;}
 
 			@media(min-width: 681px) {
 			    /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+						div {background-color: #d6c489;
+								font-size: 5em;
+
+						}
+
+
 			}
 
 			@media(min-width: 729px) {
 			    /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
+						div {background-color: #fca1a1;
+									font-size: 3em;}
+
+
 			}
