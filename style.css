@@ -1,11 +1,11 @@
-body {
+html, body {
 
 
 margin: auto;
 padding: 0;
 max-width: 800px;
 font-family: 'Poppins', sans-serif;
-font-size: 1.3em;
+font-size: 18px;
 background-color: #11E173
 }
 
@@ -43,17 +43,14 @@ blockquote {font-family: 'Archivo Black', sans-serif;}
 			height: auto;
 			margin: auto}
 
-@media screen and (min-width: 500px) {
-
-	body { background-color: #E0EEF1;
 
 
+			/* Tablet/Desktop overrides */
 
+			@media(min-width: 681px) {
+			    /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+			}
 
-
-}
-
-@media screen and (max-width: 800px) {
-		body { background-color: #E66F52;
-
-}
+			@media(min-width: 729px) {
+			    /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
+			}
