@@ -1,0 +1,15 @@
+
+/* Start your base/mobile styles here */
+
+html, body {
+    /* Sets default font-size to 16px, ensuring 1em = 16px; */
+    font-size: 16px;
+}
+
+
+
+/* Tablet/Desktop overrides */
+
+@media(min-width: 681px) {
+    /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+}
